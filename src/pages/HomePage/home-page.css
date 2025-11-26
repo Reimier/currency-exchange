@@ -1,0 +1,21 @@
+
+#home-container{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: "inter";
+
+}
+
+@media (max-width: 468px) {
+
+  #home-container{
+
+    font-size: 11px;
+  }
+
+
+}
