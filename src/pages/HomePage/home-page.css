@@ -7,6 +7,39 @@
   flex-wrap: wrap;
   flex-direction: column;
   font-family: "inter";
+  margin: 0;
+
+}
+
+#home-container h1{
+
+  font-size: 25px;
+  text-align: center;
+  width: 800px;
+
+}
+
+#support{
+
+  margin-bottom: 50px;
+
+}
+
+@media (max-width: 1080px) {
+
+    #home-container h1{
+
+  font-size: 18px;
+  width: 600px;
+
+}
+
+#support{
+
+  font-size: 9px;
+  margin-bottom: 50px;
+
+}
 
 }
 
@@ -16,6 +49,20 @@
 
     font-size: 11px;
   }
+
+  #home-container h1{
+
+  font-size: 15px;
+  width: 300px;
+
+}
+
+#support{
+
+  font-size: 9px;
+  margin-bottom: 40px;
+
+}
 
 
 }

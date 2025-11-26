@@ -1,9 +1,14 @@
 body{
 
+  width: 99%;
+  height: 100%;
   font-family: "inter";
+  background-color: #ffffff;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.171) 2px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -5px -5px;
 
 }
-
 
 #main-container{
 

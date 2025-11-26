@@ -3,7 +3,6 @@
   padding: 20px;
   border-radius: 10px;
   background: rgb(255, 255, 255);
-  padding: 20px;
   border-radius: 15px;
   border-style: solid;
   border-width: 1px;
@@ -11,13 +10,13 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-h2 {
+#time{
   text-align: center;
   margin-bottom: 20px;
 }
 
 .row {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -36,12 +35,23 @@ select {
 
 .result-box {
   margin-top: 20px;
-  padding: 2px;
+  padding: 1px;
   background: #85BB65;
   border-radius: 6px;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 18px;
 }
+
+
+#rate {
+  display: flex;
+  gap: 25px;          
+}
+
+#rate .row {
+  flex: 1;            
+}
+
 
 @media (max-width: 1080px) {
 
@@ -50,13 +60,15 @@ select {
   padding: 20px;
   border-radius: 10px;
   background: rgb(255, 255, 255);
-  padding: 20px;
   border-radius: 15px;
   border-style: solid;
   border-width: 1px;
   border-color: #000000;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
+
+
 }
 
 @media (max-width: 468px) {
@@ -66,11 +78,18 @@ select {
   padding: 20px;
   border-radius: 10px;
   background: rgb(255, 255, 255);
-  padding: 20px;
   border-radius: 15px;
   border-style: solid;
   border-width: 1px;
   border-color: #000000;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
+#time {
+
+  font-size: 10px;
+  
+}
+
+
 }

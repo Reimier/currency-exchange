@@ -5,24 +5,15 @@ import React, { useState, useEffect } from "react";
 
 export default function HomePage(){
     
-        const [date, setDate] = useState([]);
 
-    useEffect(()=>{
-
-        fetch("https://open.er-api.com/v6/latest/USD")
-        .then((res)=>res.json())
-        .then((data) => setDate(data))
-
-    },[]);
 
     return(
         <>
 
         <div id="home-container">
-        
-            <h3>
-                Time Last Update: {date.time_last_update_utc}
-            </h3>
+
+            <h1>Convert money effortlessly with our Currency Exchange App. Get up-to-date exchange rates, switch between currencies easily.</h1>
+            <p id="support">Supports 165 currencies WorldWide using ExchangeRate-API</p>
 
             <ExchangeCard/>
 
