@@ -41,6 +41,14 @@ export default function ExchangeCard() {
 
   };
 
+  const Switch = () => {
+
+    const tempFrom = from;
+    setFrom(to);
+    setTo(tempFrom);
+
+  }
+
   useEffect(() => {
     convert();
   }, [amount, from, to]);
@@ -62,6 +70,8 @@ export default function ExchangeCard() {
           ))}
         </select>
       </div>
+
+    <button onClick={Switch} id="switch-btn">switch</button>
 
       <div className="row">
         <label>To:</label>
