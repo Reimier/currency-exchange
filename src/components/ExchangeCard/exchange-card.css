@@ -48,6 +48,7 @@ select {
     border-radius: 6px;
     border-style: none;
     height: 35px;
+    width: 50px;
     margin-top: 25px;
   
 }
@@ -101,6 +102,7 @@ select {
     border-style: none;
     height: 35px;
     margin-top: 18px;
+    width: 30px;
   
 }
 
