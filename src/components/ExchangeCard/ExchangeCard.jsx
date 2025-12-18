@@ -71,7 +71,7 @@ export default function ExchangeCard() {
         </select>
       </div>
 
-    <button onClick={Switch} id="switch-btn">switch</button>
+    <button onClick={Switch} id="switch-btn"> <i class="fa-solid fa-repeat"></i> </button>
 
       <div className="row">
         <label>To:</label>
