@@ -29,17 +29,18 @@ border: 1px solid #000000;
 
 
 .submit-btn {
-background: #85BB65;
+background: #51A0D5;
 color: rgb(0, 0, 0);
 padding: 12px;
 border-radius: 10px;
+color: white;
 border: none;
 cursor: pointer;
 transition: 0.3s;
 }
 
 .submit-btn:hover {
-background: #b2ea91;
+background: #51A0D5;
 }
 
 .back-btn {
@@ -60,7 +61,7 @@ textarea {
 
 
 .back-btn:hover {
-background: #85BB65;
+background: #51A0D5;
 }
 
 @media (max-width: 468px) {

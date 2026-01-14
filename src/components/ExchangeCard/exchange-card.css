@@ -36,15 +36,17 @@ select {
 .result-box {
   margin-top: 20px;
   padding: 1px;
-  background: #85BB65;
+  background: #51A0D5;
   border-radius: 6px;
   text-align: center;
   font-size: 18px;
+  color: white;
 }
 
 #switch-btn{
 
-    background: #85BB65;
+    background: #51A0D5;
+    color: white;
     border-radius: 6px;
     border-style: none;
     height: 35px;
@@ -97,7 +99,7 @@ select {
 
 #switch-btn{
 
-    background: #85BB65;
+    background: #51A0D5;
     border-radius: 6px;
     border-style: none;
     height: 35px;

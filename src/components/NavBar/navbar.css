@@ -21,7 +21,8 @@ nav {
 .Navbtn {
   border-radius: 12px;
   color: rgb(0, 0, 0);
-  background-color: #85BB65;
+  background-color: #51A0D5;
+  color: white;
   border-style: none;
   padding: 10px;
   transition: 0.3s;
@@ -31,7 +32,7 @@ nav {
 
 .Navbtn:hover{
 
-  background: #b2ea91;
+  background: #51A0D5;
 }
 
 @media (max-width: 468px) {
@@ -46,7 +47,7 @@ nav {
 .Navbtn {
   border-radius: 12px;
   color: rgb(0, 0, 0);
-  background-color: #85BB65;
+  background-color: #51A0D5;
   border-style: none;
   padding: 8px;
   transition: 0.3s;
