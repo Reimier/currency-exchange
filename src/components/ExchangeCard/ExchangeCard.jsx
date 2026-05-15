@@ -17,20 +17,18 @@ export default function ExchangeCard() {
 
   },[]);
 
-  // Fetch currency codes
   useEffect(() => {
     const fetchCurrencies = async () => {
       
       const res = await fetch("https://open.er-api.com/v6/latest/USD");
       const data = await res.json();
-      setCurrencies(Object.keys(data.rates)); // only codes
+      setCurrencies(Object.keys(data.rates)); 
     
     };
 
     fetchCurrencies();
   }, []);
 
-  // Conversion
   const convert = async () => {
     if (amount === "" || from === "" || to === "") return;
 
