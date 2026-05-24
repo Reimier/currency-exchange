@@ -32,6 +32,7 @@ nav {
 
 .Navbtn:hover{
 
+  cursor: pointer;
   background: #51A0D5;
 }
 
