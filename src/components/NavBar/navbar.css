@@ -10,7 +10,8 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 #brand-container img {
@@ -25,6 +26,8 @@ nav {
   color: white;
   border-style: none;
   padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   transition: 0.3s;
   font-family: "inter";
   font-weight: bold;
@@ -42,17 +45,17 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .Navbtn {
-  border-radius: 12px;
-  color: rgb(0, 0, 0);
+  border-radius: 8px;
   background-color: #51A0D5;
   border-style: none;
   padding: 8px;
   transition: 0.3s;
-  font-size: 10px;
+  font-size: 12px;
   font-family: "inter";
   font-weight: bold;
 }
